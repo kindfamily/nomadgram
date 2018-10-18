@@ -44,6 +44,8 @@ CREATE DATABASE nomadgram;
  #1-12. Creating the Apps
 django-admin startapp images
 
+#1-18. Creating a super user
+python manage.py createsuperuser
 
 
 
