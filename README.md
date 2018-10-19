@@ -64,3 +64,33 @@ localhost:8000/users/bill > header에 value: JWT 토큰값 붙여넣기 > 가입
 #1-72 Signing Up : Logging In
 pipenv install django-rest-auth
 facebook 로그인 을 위한 패키지 부분이라서 설치만 하고 적용 안함
+
+prontend
+** webpack으로 설정하면 오래 결려서 creat react app을 사용한다
+Create React App V2 릴리즈! 10분만에 설명해준다. (Create React App V2.0 Explained in 10 min)
+https://youtu.be/w9Zf0hpohQM
+
+install
+npx create-react-app crav2
+
+sass 사용하게 설정
+crv2>src>App.scss 파일명 변경
+crv2>src>App.js import app.scss로 변경 이름도 변경 
+yarn add node-sass
+
+module css 사용하게 설정
+** class의 이름을 랜덤하게 바꿔줘서 class 명을 추적 안해도 되게 해줌
+crv2>src> App.module.scss 파일명 변경
+crv2>src>App.js  import styles from './App.module.scss';로 변경
+yarn add node-sass
+App.module.scss 파일 변경
++ class명 첫 글자 소문자로 변경하고 '-' 삭제 
+
+react fragment syntax 적용
+뭔지 모르겠고 당장 안필요 할것 같아서 설정안함
+
+#2-4 Using Create React App
+에서 부터 다시 보변서 적용
+
+
+
