@@ -1,3 +1,4 @@
+BACKEND
 #1-4. Creating a Virtual Environment
 mkdir bsdir2
 cd bsdir2
@@ -56,3 +57,10 @@ python manage.py createsuperuser
 
 #1-70 Setting up JWT
 pipenv install djangorestframework-jwt
+postman 테스트
+localhost:8000/api-token-auth > body에 username: password 입력해서 token값을 받아옴
+localhost:8000/users/bill > header에 value: JWT 토큰값 붙여넣기 > 가입 정보가 나옴 
+
+#1-72 Signing Up : Logging In
+pipenv install django-rest-auth
+facebook 로그인 을 위한 패키지 부분이라서 설치만 하고 적용 안함
