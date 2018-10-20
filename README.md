@@ -92,5 +92,47 @@ react fragment syntax 적용
 #2-4 Using Create React App
 에서 부터 다시 보변서 적용
 
+#2-5 Ejecting from Create React App
+yarn eject
+webpack을 좀더 커스터 마이징 하기 위한 eject 
+package.json에 디펜던시가 추가되는것을 확인
 
 
+#2-6 Ejection aftermath
+eject 이후 2개의 폴더 자동 생성 config, scripts
+불필요한 파일 삭제 jest폴더, script>test.js
+package.json jest 부분 삭제 0:40초 부분
+
+webpack.config.dev.js
+웹사이트 개발시 마다 실행
+
+webpack.config.prod.js
+live 웹사이트를 위한 파일
+
+#2-7 Intro to SCSS and Adding SCSS to Webpack
+니콜라스 헬프미 ~ ㅎ
+Create React App V2
+https://youtu.be/w9Zf0hpohQM 
+
+요 동영상 보고 sass, css module 을 적용했는데요 
+
+#2-8
+#2-9 
+
+스킵하고 
+#2-10 Serving Webpack Bundles with Django
+로 넘어가도 문제 없을까요? 
+
+#2-7 Intro to SCSS and Adding SCSS to Webpack 
+내용 진행에 대한 댓글남김
+2:56초 
+webpack.config.dev.js 
+파일 수정하는 부분이 당최 이해가 안되고 실제 제가 설치한 파일하고는 모양이 많이 달라서요
+
+webpack 홈페이지에서 참고할 내용이 있을까요? 
+https://webpack.js.org/concepts/
+
+문서를 봐도 여전히 잘 모르겠어요
+혹시 참고할만한 내용 링크를 주실수 있으면 부탁드려요 
+
+니콜라스 강좌 잘보고 있어요 ~ 짱짱 !!
