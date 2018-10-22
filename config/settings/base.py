@@ -160,6 +160,7 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/dev/ref/contrib/staticfiles/#std:setting-STATICFILES_DIRS
 STATICFILES_DIRS = [
     str(APPS_DIR.path('static')),
+    str(ROOT.DIR.path('frontend','build','static'))
 ]
 # https://docs.djangoproject.com/en/dev/ref/contrib/staticfiles/#staticfiles-finders
 STATICFILES_FINDERS = [
@@ -266,3 +267,5 @@ REST_FRAMEWORK = {
 }
 
 ACCOUNT_LOGOUT_ON_GET = True
+
+CORS_ORIGIN_ALLOW_ALL = True

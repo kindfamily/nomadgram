@@ -157,3 +157,4 @@ base.py 에 middleware항목에 'corsheaders.middleware.CorsMiddleware', 추가
 
 장고가 번들을 static file로 로딩하게 해야함
 base.py 수정 : STATICFILES_DIRS 항목에 str(ROOT.DIR.path('frontend','build','static')) 추가
+9:23초
