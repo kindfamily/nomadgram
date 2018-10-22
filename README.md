@@ -136,3 +136,24 @@ https://webpack.js.org/concepts/
 혹시 참고할만한 내용 링크를 주실수 있으면 부탁드려요 
 
 니콜라스 강좌 잘보고 있어요 ~ 짱짱 !!
+
+#2-10 Serving Webpack Bundles with Django
+yarn build > fronted 폴더안에 build 폴더가 생성되는 것을 확인
+fronted> package.json 수정  "proxy": "http://localhost:8000" 800포트 추가 
+
+:8000 Django 
+:3000 React 
+
+리액트앱 (3000)에서 장고 서버로 요청이 오면 자동으로 막아버림 
+8000포트 자신에게 오는 것만 허용함
+이것을 막지 않게 하기 위해서 설치하는 프로그램
+
+가상환경에설치: pipenv install django-cors-headers
+장고에설치: config>base.py Third party apps 항목에 'corsheaders', # To accept requests from React (3000port) 추가
+
+미들웨어 추가
+** 장고가 요청을 처리하는 방법
+base.py 에 middleware항목에 'corsheaders.middleware.CorsMiddleware', 추가
+
+장고가 번들을 static file로 로딩하게 해야함
+base.py 수정 : STATICFILES_DIRS 항목에 str(ROOT.DIR.path('frontend','build','static')) 추가
