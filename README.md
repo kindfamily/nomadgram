@@ -158,3 +158,8 @@ base.py 에 middleware항목에 'corsheaders.middleware.CorsMiddleware', 추가
 장고가 번들을 static file로 로딩하게 해야함
 base.py 수정 : STATICFILES_DIRS 항목에 str(ROOT.DIR.path('frontend','build','static')) 추가
 9:23초
+
+Nomadgram 폴더의 전체  view.py 생성
+nomadgram> view.py catch-all-URL설정: request가 url을 매칭하지 못했을때 이동하는곳
+path("", include("allauth.urls")), > 오류 생길수도 있는 부분
+
