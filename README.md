@@ -163,3 +163,12 @@ Nomadgram 폴더의 전체  view.py 생성
 nomadgram> view.py catch-all-URL설정: request가 url을 매칭하지 못했을때 이동하는곳
 path("", include("allauth.urls")), > 오류 생길수도 있는 부분
 
+리덕스 들어가기전 미니 강좌 
+리액트, 리덕스로 타이머 앱 만들기 : #6 Installing Redux and React Redux
+리덕스 설치
+npm install redux react-redux
+
+package-lock.json 파일에 설치 확인
+
+리액트, 리덕스로 타이머 앱 만들기 : #7 Intro to Redux
+리덕스 이론 볼 차례
