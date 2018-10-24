@@ -172,3 +172,6 @@ package-lock.json 파일에 설치 확인
 
 리액트, 리덕스로 타이머 앱 만들기 : #7 Intro to Redux
 리덕스 이론 볼 차례
+
+리액트, 리덕스로 타이머 앱 만들기 : #9 Practicing Javascript Switch
+볼차례
