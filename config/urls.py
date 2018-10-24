@@ -18,7 +18,7 @@ urlpatterns = [
         include("nomadgram.users.urls", namespace="users"),
     ),
     path("accounts/", include("allauth.urls")),
-    path("", include("allauth.urls")),
+    path("", views.ReactAppView.as_view()),
 
 
 ] + static(
