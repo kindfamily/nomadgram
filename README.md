@@ -175,3 +175,29 @@ package-lock.json 파일에 설치 확인
 
 리액트, 리덕스로 타이머 앱 만들기 : #9 Practicing Javascript Switch
 볼차례
+미니 프로젝트 다봄
+
+#3-0 Creating the User Reducer
+** 여러개의 리덕스 만들 뼈대 생성
+logo 삭제
+파일&폴더생성:redux>modules>users.js 
+리덕스 파일 작성 순서 제작 
+// imports
+// actions
+// action creators
+// intitial state
+// reducer
+// reducer functions
+// exports
+// reducer export
+파일 작성
+#3-1 Installing Redux in Our Project
+redux 설치
+fronted 폴더에서 
+yarn add redux react-redux
+
+#3-2 Setting Up the Redux Store with Multiple Reducers
+*여러개의 리듀서를 합칠 수 있는 스토어 만들기
+파일생성: redux> configureStore.js ( 나의 스토어를 설정/ 구성)
+
+#3-3 Connecting the Reducer with the React App
