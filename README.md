@@ -201,3 +201,10 @@ yarn add redux react-redux
 파일생성: redux> configureStore.js ( 나의 스토어를 설정/ 구성)
 
 #3-3 Connecting the Reducer with the React App
+Failed to compile
+./src/index.js
+Module not found: Can't resolve 'redux/configureStore' in '/Users/bill/Desktop/bsdir2/nomadgram/frontend/src'
+This error occurred during the build time and cannot be dismissed.
+
+발생
+
