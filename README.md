@@ -208,11 +208,21 @@ This error occurred during the build time and cannot be dismissed.
 
 발생
 >> 다음편 비디오에 해결책 나옴
+
+#3-4 Changing the NODE_PATH
 fronted>.env 파일 생성
 NODE_PATH=src 입력하기
 ** 모듈 형식으로 불러 오도록 하는 설정
 
 fronted>src index.js, app.js configureStore.js 의 상대경로 변경 ../ 를 삭제 
 
+ #3-5 Redux Middlewares Thunk
+ 미들웨어 작성
+fronted 폴더에서 미들웨어 설치
+yarn add redux-thunk
+미들웨어 : 엑션을 보낼때까지 기다려서 보내는것
 
+...middlewares 
+...는 array 를 unpack 한다는 의미 
+configureStore.js 파일 수정
 
