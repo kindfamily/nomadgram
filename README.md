@@ -207,4 +207,12 @@ Module not found: Can't resolve 'redux/configureStore' in '/Users/bill/Desktop/b
 This error occurred during the build time and cannot be dismissed.
 
 발생
+>> 다음편 비디오에 해결책 나옴
+fronted>.env 파일 생성
+NODE_PATH=src 입력하기
+** 모듈 형식으로 불러 오도록 하는 설정
+
+fronted>src index.js, app.js configureStore.js 의 상대경로 변경 ../ 를 삭제 
+
+
 
