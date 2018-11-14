@@ -226,3 +226,13 @@ yarn add redux-thunk
 ...는 array 를 unpack 한다는 의미 
 configureStore.js 파일 수정
 
+#3-6 Redux Middlewares- Logger
+fronted 폴더에서 yarn add redux-logger --dev
+--dev 옵션을 넣고 package.json 에서 확인나면 development에만 적용이 됨을 확인 가능
+
+configureStore.js: 미들웨어를 넣기 위한 파일
+
+configureStore.js 파일 수정
+https://github.com/nomadcoders/nomadgram/commit/2a95b65ae7e83feeb084d21b43cf12fead364868
+
+
