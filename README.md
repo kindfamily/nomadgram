@@ -235,4 +235,23 @@ configureStore.js: 미들웨어를 넣기 위한 파일
 configureStore.js 파일 수정
 https://github.com/nomadcoders/nomadgram/commit/2a95b65ae7e83feeb084d21b43cf12fead364868
 
+#3-7 Contact List App- Creating the Project and Cleaning Up
+cd Documents 폴더에 라우터 생성
+create-react-app react-router-contact-List
+불필요한 파일 정리
+https://github.com/nomadcoders/react-router-contact-list/commit/77d42619e06956bebeb1752a2958d69d4076c35a
+
+
+#3-8 Contact List App- Creating the Router and the Header
+** 실제출력되는 화면 만들기
+react router 설치
+yarn add react-router-dom
+
+#3-9 Contact List App- Created Home page + Contacts
+app.js index.js 수정하여 2개의 페이지 만듬
+https://github.com/nomadcoders/react-router-contact-list/tree/de3d5fa82aeaf41562da4b913dfecd0359446dc4
+
+#3-10 Contact List App- Contacts Routes and Contact Detail
+url 에서 정보를 불러와서 다른 내용을 보여주는 코딩 
+한번 다시 보고 적용하기
 
