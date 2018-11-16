@@ -254,4 +254,20 @@ https://github.com/nomadcoders/react-router-contact-list/tree/de3d5fa82aeaf41562
 #3-10 Contact List App- Contacts Routes and Contact Detail
 url 에서 정보를 불러와서 다른 내용을 보여주는 코딩 
 한번 다시 보고 적용하기
+match를 이용해서 router 생성 
+약간 어려움
+
+#3-11 Syncing React Router with Redux
+** 리액트 라우터가 리듀서와 함께 작동하게 하는것을 목표 
+설치
+yarn add react-router-dom react-router-redux history
+configureStore.js 수정
+index.js 수정
+
+오류 발생
+해결
+여기 ConnectedRouter쓰시고 에러나시는분들
+yarn remove react-router-redux하신다음에 yarn add react-router-redux@next로 5버전 받으셔야 에러 안납니다
+
+
 
