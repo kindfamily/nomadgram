@@ -269,5 +269,24 @@ index.js 수정
 여기 ConnectedRouter쓰시고 에러나시는분들
 yarn remove react-router-redux하신다음에 yarn add react-router-redux@next로 5버전 받으셔야 에러 안납니다
 
+#3-12 Debugging Redux like a Pro with Reactotron
+yarn add reactotron-react-js
 
+src>ReactotronConfig.js 파일 생성 및 입력 
 
+install reactotron
+brew update
+Then simply type:
+
+brew cask install reactotron
+To update an existing installation of reactotron via brew, type:
+
+brew cask reinstall reactotron
+After a successful brew cask install, you can find the app in your Applications folder. Run it like any other application. 
+
+reactotroncongif.js index.js 수정
+
+리덕스 스토어에 싱크 시키기 
+yarn add reactotron-redux --dev 입력
+
+reactotroncongif.js 에 플러그인 추가
