@@ -290,3 +290,13 @@ reactotroncongif.js index.js 수정
 yarn add reactotron-redux --dev 입력
 
 reactotroncongif.js 에 플러그인 추가
+
+#3-14 Installing Redux Dev Tools
+
+yarn add redux-devtools-extension --dev
+
+크롬 확장도구 라서 더 편리
+
+reactotron 때문에 오류 생기면 
+configureStore.js, index.js 에서 주석 처리
+

@@ -81,6 +81,7 @@
   },
   "devDependencies": {
     "reactotron-redux": "^2.1.0",
+    "redux-devtools-extension": "^2.13.5",
     "redux-logger": "^3.0.6"
   }
 }
