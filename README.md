@@ -300,3 +300,9 @@ yarn add redux-devtools-extension --dev
 reactotron 때문에 오류 생기면 
 configureStore.js, index.js 에서 주석 처리
 
+
+#3-15 Multi Language with Redux
+** 언어설정
+yarn add redux-i18n
+
+translations.js 에 원하는 언어 추가
