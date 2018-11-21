@@ -306,3 +306,8 @@ configureStore.js, index.js 에서 주석 처리
 yarn add redux-i18n
 
 translations.js 에 원하는 언어 추가
+
+#3-16 Moving the App Component and Adding Reset-CSS
+파일 삭제 및 정리 
+reset css 브라우저 디폴트 세팅을 가져와서 이를 초기화 시킴
+yarn add reset-css
