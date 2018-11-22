@@ -311,3 +311,11 @@ translations.js 에 원하는 언어 추가
 파일 삭제 및 정리 
 reset css 브라우저 디폴트 세팅을 가져와서 이를 초기화 시킴
 yarn add reset-css
+
+#3-17 Adding SCSS Variables
+config폴더생성
+_variables.scss 파일에서 변수 정의하고
+styles.scss 파일에서 적용
+
+
+

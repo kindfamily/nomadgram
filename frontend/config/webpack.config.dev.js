@@ -302,6 +302,12 @@ module.exports = {
                 getLocalIdent: getCSSModuleLocalIdent,
               },
               'sass-loader'
+              // {
+              //   loader: require.resolve("sass-loader"),
+              //   options: {
+              //     data: `@import "${paths.appSrc}/config/_variables.scss";`
+              //   }
+              // }
             ),
           },
           // "file" loader makes sure those assets get served by WebpackDevServer.
