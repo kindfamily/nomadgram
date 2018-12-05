@@ -61,7 +61,7 @@ const getStyleLoaders = (cssOptions, preProcessor) => {
     },
   ];
   if (preProcessor) {
-    loaders.push(require.resolve(preProcessor));
+    loaders.push(preProcessor);
   }
   return loaders;
 };
@@ -278,6 +278,7 @@ module.exports = {
             use: getStyleLoaders({
               importLoaders: 1,
               modules: true,
+              camalCase: true,
               getLocalIdent: getCSSModuleLocalIdent,
             }),
           },
@@ -300,15 +301,15 @@ module.exports = {
                 importLoaders: 2,
                 modules: true,
                 getLocalIdent: getCSSModuleLocalIdent,
+                camalCase: true,    
               },
-              'sass-loader'
-              // {
-              //   loader: require.resolve("sass-loader"),
-              //   options: {
-              //     data: `@import "${paths.appSrc}/config/_variables.scss";`
-              //   }
-              // }
-            ),
+              {
+                loader: require.resolve("sass-loader"),
+                options: {
+                  data: `@import "${paths.appSrc}/config/_variables.scss";`
+                }
+              }
+            )
           },
           // "file" loader makes sure those assets get served by WebpackDevServer.
           // When you `import` an asset, you get its (virtual) filename.

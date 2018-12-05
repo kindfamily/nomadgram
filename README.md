@@ -317,5 +317,7 @@ config폴더생성
 _variables.scss 파일에서 변수 정의하고
 styles.scss 파일에서 적용
 
+>>cra 업데이트후 변경되는 부분 적용 
+https://academy.nomadcoders.co/courses/instagram-full-stack-front-end-back-end-ios/lectures/6726442
 
 

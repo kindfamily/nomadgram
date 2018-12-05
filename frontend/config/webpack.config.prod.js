@@ -86,12 +86,7 @@ const getStyleLoaders = (cssOptions, preProcessor) => {
     },
   ];
   if (preProcessor) {
-    loaders.push({
-      loader: require.resolve(preProcessor),
-      options: {
-        sourceMap: shouldUseSourceMap,
-      },
-    });
+    loaders.push(preProcessor);
   }
   return loaders;
 };
@@ -356,6 +351,7 @@ module.exports = {
               importLoaders: 1,
               sourceMap: shouldUseSourceMap,
               modules: true,
+              camalCase: true,
               getLocalIdent: getCSSModuleLocalIdent,
             }),
           },
@@ -389,9 +385,16 @@ module.exports = {
                 importLoaders: 2,
                 sourceMap: shouldUseSourceMap,
                 modules: true,
+                camalCase: true,
                 getLocalIdent: getCSSModuleLocalIdent,
               },
-              'sass-loader'
+              {
+                loader: require.resolve("sass-loader"),
+                options: {
+                  data: `@import "${paths.appSrc}/config/_variables.scss";`
+                  // sourceMap: shouldUseSourceMap
+                }
+              }
             ),
           },
           // "file" loader makes sure assets end up in the `build` folder.
