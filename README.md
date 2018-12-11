@@ -320,4 +320,8 @@ styles.scss 파일에서 적용
 >>cra 업데이트후 변경되는 부분 적용 
 https://academy.nomadcoders.co/courses/instagram-full-stack-front-end-back-end-ios/lectures/6726442
 
+>>> 글로벌 변수 적용 안시키고 진행
+
+#3-18 Creating the Footer Component
+** 글로벌 변수 적용 안시키고 진행 
 
