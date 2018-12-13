@@ -364,3 +364,11 @@ webpack.config.prod
 파일 변경
 
 yarn build
+
+#3-17 Adding SCSS Variables
+
+cra 업데이트 과정에서는 잘 되었는데 
+redux 적용과정에서 router 업데이트 이슈 (#3-11)
+
+글로벌 변수 적용 하는 부분에서 또다시 변수 적용 안됨
+지옥 ....
