@@ -325,3 +325,12 @@ https://academy.nomadcoders.co/courses/instagram-full-stack-front-end-back-end-i
 #3-18 Creating the Footer Component
 ** 글로벌 변수 적용 안시키고 진행 
 
+
+#3-19 Styling the Footer
+font 쉽게 찾는 꿀팁
+window에서는 윈도우로 치면 나옴
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+roboto폰트는 구글 폰트에서 추가해야함 
+
+4:56초 동영상 보고 있음
