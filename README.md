@@ -372,3 +372,9 @@ redux 적용과정에서 router 업데이트 이슈 (#3-11)
 
 글로벌 변수 적용 하는 부분에서 또다시 변수 적용 안됨
 지옥 ....
+
+혹시라도 scss 파일 import 에 문제 있으신 분들은 webpack 설정 중 data: `@import ~~~;`작성을 test: sassRegex 가 있는 부분에도 추가해주세요~
+댓글 대로 적용
+
+#3-18 Creating the Footer Component
+진행할 차례
