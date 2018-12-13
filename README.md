@@ -334,3 +334,33 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 roboto폰트는 구글 폰트에서 추가해야함 
 
 4:56초 동영상 보고 있음
+
+style  적용에 문제가 있어서 frontend 폴더를 삭제하고 nomadgram 폴더에서 cra재설치
+https://youtu.be/KZW99D2LuuQ
+npx creat-react-app frontend ( nomadgram 폴더에서 설치 )
+yarn 버전 업데이트
+brew yarn upgrade yarn
+
+파일명 변경 및 설치
+yarn add node-sass
+
+정상 작동 확인
+
+git add . > git commit -m ""
+
+eject
+yarn eject 
+webpack.config.dev.js
+webpack.config.prod
+파일 변경
+
+global variables
+다음동영상에서 진행
+
+https://youtu.be/rZOduIgjKYI
+
+webpack.config.dev.js
+webpack.config.prod
+파일 변경
+
+yarn build
