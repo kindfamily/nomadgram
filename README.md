@@ -377,4 +377,14 @@ redux 적용과정에서 router 업데이트 이슈 (#3-11)
 댓글 대로 적용
 
 #3-18 Creating the Footer Component
-진행할 차례
+
+config 폴더 파일 생성 
+_sizes.scss
+_colors.scss
+생성해서 _variablesl.scss파일로 불러옴
+
+App>index.js 파일 편경해서 Footer컴포넌트 파일을 화면에 뿌림
+
+#3-20 Mixins and Responsive Footer
+_mixin.scss 파일 생성하고 디스플레이 사이즈에 따라 미디어 쿼리 작성 
+
