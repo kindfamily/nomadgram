@@ -4,7 +4,7 @@ import { createBrowserHistory } from "history";
 import { composeWithDevTools } from "redux-devtools-extension";
 import { connectRouter, routerMiddleware } from "connected-react-router";
 import { i18nState } from "redux-i18n";
-import user from "./modules/users";
+import user from "./modules/user";
 // import Reactotron from 'ReactotronConfig';
 
 const env = process.env.NODE_ENV;

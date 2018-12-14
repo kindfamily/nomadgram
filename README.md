@@ -388,3 +388,21 @@ App>index.js 파일 편경해서 Footer컴포넌트 파일을 화면에 뿌림
 #3-20 Mixins and Responsive Footer
 _mixin.scss 파일 생성하고 디스플레이 사이즈에 따라 미디어 쿼리 작성 
 
+#3-21 Making the App container
+** 코드를 생성하고 변경하는 패턴을 알려주는 강의
+user 리듀서 변경
+이름변경
+redux>modules> user.js 이름으로 변경
+
+configureStore.js 경로 변경
+확장 프로그램에서 이름 변경된것 확인
+
+App>contaner.js presenter.js 생성
+
+App>indes.js 내용을 presenter.js 파일로 옮기기
+
+index.js수정
+
+#3-22 React Design Patterns
+react component patten ( 니콜라스 추천 스터디 링크 )
+https://levelup.gitconnected.com/react-component-patterns-ab1f09be2c82
