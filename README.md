@@ -406,3 +406,16 @@ index.js수정
 #3-22 React Design Patterns
 react component patten ( 니콜라스 추천 스터디 링크 )
 https://levelup.gitconnected.com/react-component-patterns-ab1f09be2c82
+
+
+#3-23 Handling Authentication with Redux and React Router
+할 차례
+
+presenter.js 라우터 설정
+switch를 적용해서 url로 접근할때 분기점을 줌
+
+array로 리턴해서 여러개를 switch 하게 만듬
+
+jwt 토큰값이 있는지 없는지에 따라 login hello feed 가 다르게 출력되도록함
+
+#3-24 Auth Component part One

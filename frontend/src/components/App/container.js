@@ -1,5 +1,7 @@
-import React from 'react';
-import App from './presenter';
+import React from "react";
+import App from "./presenter";
+
+// TODO: If the user is logged in, call API
 
 const Container = props => <App {...props} />;
 
