@@ -419,3 +419,33 @@ array로 리턴해서 여러개를 switch 하게 만듬
 jwt 토큰값이 있는지 없는지에 따라 login hello feed 가 다르게 출력되도록함
 
 #3-24 Auth Component part One
+** 로그인 컴포넌트 만들기
+App > index.js container.js presenter.js styles.scss 파일 생
+성
+
+#3-25 Auth Component part Two
+가입해야 할경우 다른 로그인 화면 보여줌
+
+#3-26 Auth Component part Three
+AuthForms > index.js styles.scss 파일 생성
+
+아이콘 사용할때 
+react-ionicons를 사용 하면 됨 
+yarn add react-ionicons
+
+error 발생
+Module not found: Can't resolve 'react-ionicons' in '/Users/bill/Desktop/bsdir2/nomadgram/frontend/src/components/AuthForms'
+
+우선 주석처리 하고 진행
+
+해결
+package.json 에 설치된 버전이 높아서 안된거였습니다
+yarn remove react-ionicons
+해서 설치된거 지우고
+
+yarn add react-ionicons@2.0.2
+로 설치하니까 잘됩니다 ^ ^
+
+#3-27 Finishing Auth Component and the Auth Forms
+버튼 색상은 잘 먹었는데 반응형이 안됨 
+다시 복붙해야할 듯 
