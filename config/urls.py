@@ -13,6 +13,7 @@ urlpatterns = [
     path(settings.ADMIN_URL, admin.site.urls),
     # User management
     path("rest-auth/",obtain_jwt_token),
+    path("rest-auth/registration/", include('rest_auth.registration.urls')),
     path(
         "users/",
         include("nomadgram.users.urls", namespace="users"),
