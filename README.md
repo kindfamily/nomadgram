@@ -448,4 +448,60 @@ yarn add react-ionicons@2.0.2
 
 #3-27 Finishing Auth Component and the Auth Forms
 버튼 색상은 잘 먹었는데 반응형이 안됨 
-다시 복붙해야할 듯 
+다시 복붙해야할 듯 > 해결
+
+> face book 로그인 적용을 위해서 앞에 안한 부분 다시 하기
+
+
+#1-72 Signing Up : Logging In
+nomadgram 폴더에서 pipenv install django-rest-auth
+base.py 파일에 내용 추가
+urls.py 파일에 내용 추가 
+
+error 발생  
+Someone can suffer error because ACCOUNT_EMAIL_VERIFICATION = 'none' is not applied. In my case ACCOUNT_EMAIL_VERIFICATION = 'mandatory', it could make error. So It should be changed to none because email is not required but verify it is weird.
+
+댓글보고 해결
+
+python manage.py makemigrations && python manage.py migrate
+
+#1-73 Uploading a Photo
+nomadgram > feed.py 파일 변경
+
+
+#1-74 Uploading profile image
+
+#1-75 Login in with Facebook
+** 장고 어드민 설정 안됨 
+** postman으로 확인 안함
+** 문제가생길요지 있음
+base.py 서드 파이 앱 추가 쿠키커러에 기본기능 
+'allauth.socialaccount.providers.facebook', 
+소셜 로그인 제공 업체확인은 아래 링크에서 확인 가능
+https://django-allauth.readthedocs.io/en/latest/providers.html
+
+python manage.py makemigrations && python manage.py migrate
+
+facebook 개발자 아이디 생성
+
+장고 어드민에 내용 추가 ( 장고 어드민 들어가는 링크 변경 찾아야함 -__-;;)
+
+view변경
+https://django-rest-auth.readthedocs.io/en/latest/installation.html#social-authentication-optional
+
+from allauth.socialaccount.providers.facebook.views import FacebookOAuth2Adapter
+from rest_auth.registration.views import SocialLoginView
+
+class FacebookLogin(SocialLoginView):
+    adapter_class = FacebookOAuth2Adapter
+
+facebook access token 받는 링크  
+https://developers.facebook.com/tools/accesstoken/
+
+
+#3-28 Improving the Responsive Mixin
+할차례
+디바이스 대응 반응형으로 화면 바뀌도록 _mix 파일 수정
+
+#3-29 React Context And Translating the Footer
+리덕스의 언에 스테이트에 따라서 푸터의 내용을 변경하는 이론설명 
