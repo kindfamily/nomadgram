@@ -517,5 +517,21 @@ https://github.com/nomadcoders/nomadgram/commit/8cb3dc939e8e80d0c7240d30ae929b39
 #3-31 Extracting Translations
 package.json 
 script 설치 명령에 extreact 항목 설정
->> yarn extract 설치
->> locales/template.pot 파일 생성된거 확인 > 번역을 도와주는 파일
+>> yarn extract 명령어로 i18 패키지 설치 > 번역파일 추가하면 번역해서 사이트 보여주는 리엑트 패키지 
+>> locales/template.pot 파일 생성된거 확인 > 번역을 도와주는 파일  pot을 언어별로 생성해서 파일을 설정해주면 됨
+
+#3-32 Importing Translations
+번역 어떻게 하고 불러오는지 알려줌 
+파일생성: local>es.po 
+local>template.pot 의 내용 복붙
+
+script 설치 명령에 import 항목 설정
+>> yarn import 명령어로 i18 패키지 설치 > 번역파일 추가하면 번역해서 사이트 보여주는 리엑트 패키지 
+** 언어별로 인코딩 부분 넣어줌  
+"import": "i18n_import --encoding=utf-8"
+** yarn run import 명령어 실행 ( run명령어가 들어가는 이유는 기본 명령어 중에 import명령어가 있기 때문 )
+
+chrome redux확장프로그램에서
+lang:"es"
+추가해서 확인
+>> 노마드 크롬 확장화면이랑 화면이 달라져서 확인 못하고 넘어감
