@@ -505,3 +505,17 @@ https://developers.facebook.com/tools/accesstoken/
 
 #3-29 React Context And Translating the Footer
 리덕스의 언에 스테이트에 따라서 푸터의 내용을 변경하는 이론설명 
+
+#3-30 Stateless Components and Context
+번역 숙제
+모든 요소 번역
+안하고 넘어감 -__-;;
+깃헙 복
+붙
+https://github.com/nomadcoders/nomadgram/commit/8cb3dc939e8e80d0c7240d30ae929b3996ba9454
+
+#3-31 Extracting Translations
+package.json 
+script 설치 명령에 extreact 항목 설정
+>> yarn extract 설치
+>> locales/template.pot 파일 생성된거 확인 > 번역을 도와주는 파일
