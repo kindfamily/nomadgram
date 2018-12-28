@@ -535,3 +535,41 @@ chrome redux확장프로그램에서
 lang:"es"
 추가해서 확인
 >> 노마드 크롬 확장화면이랑 화면이 달라져서 확인 못하고 넘어감
+
+#3-33 Moving the AuthForm to their own components
+** 로그인 회원가입 컴포넌트 정리
+
+로그인 폼을 리덕스와 연결해서 작동하도록 만들기
+폴더 생성 및 파일 생성
+LoginForm
+SignupForm
+Shared>formstyles.scss >> css파일을 만들어서 공유하기 위한 폴더
+
+vscode 기능 ctrl+d 동일한 단어 멀티 셀렉팅
+
+내용 복붙해야함 
+https://github.com/nomadcoders/nomadgram/commit/d119a5c7a1c5596aa3a06a8bd8db2892962b4548
+
+#3-34 Controlling inputs and submit on LoginForm (코딩 챌린지 #1)
+** input의 값을 받아서 api로 보내기
+Loginform> container.js presenter.js 파일 변경해서 서버로 가기전에 내용을 저장
+
+container.js > _handleInputChage 함수 : 
+
+
+** preventDefault : 브라우저에게 디폴트 작업을 하지 말라 라고 이야기하는 함수 
+    _handleSubmit = event => {
+        event.preventDefault();
+    }
+
+
+redux 넣기 전까지 작업을 loginform 으로 하고 signupform에 직접해보는 코딩챌린지
+
+Sign Up Form Coding Challenge Solution (코딩 챌린지#1: 결과)
+https://github.com/nomadcoders/nomadgram/commit/fc0a6af1978966b32c2bfa91e8f35f27540df86d
+
+#3-35 Login In with Facebook (코딩 챌린지 #2)
+yarn add react-facebook-login
+
+설치후 불러오기
+
