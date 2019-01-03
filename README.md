@@ -573,3 +573,28 @@ yarn add react-facebook-login
 
 설치후 불러오기
 
+복붙
+https://github.com/nomadcoders/nomadgram/blob/09c455b3bf8a0910473406a176d428aa154bb52c/frontend/src/shared/formStyles.scss
+
+Sign Up with Facebook Coding Challenge Solution (코딩 챌린지 #2: 결과)
+복붙
+https://github.com/nomadcoders/nomadgram/commit/4b32dee6fc0c465f09b66036dff4b6b7cfade00f
+
+
+#3-36 Creating Facebook Login Redux Action pt. One
+base.py 파일 수정
+-> 만료 되지 않는 토큰 만들기
+
+리덕스 모듈 추가
+-> ueer.js 에서 변경
+
+redux tunk
+디스패치 조절
+
+adapters.py 영상에 없는 것 같은데 깃헙에 수정됨
+로그인 연결 문제 발생 
+>> 
+
+
+
+Nomadclone 앱이 정보를 전송하는 데 보안 연결을 사용하지 않는 것이 확인되었습니다.
