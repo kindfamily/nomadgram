@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 // import Ionicon from "react-ionicons";
-import FacebookLogin from "react-facebook-login";
+// import FacebookLogin from "react-facebook-login";
 import formStyles from "../shared/formStyles.scss";
 
 const LoginForm = (props, context) => (
@@ -30,7 +30,7 @@ const LoginForm = (props, context) => (
       />
     </form>
     <span className={formStyles.divider}>{context.t("or")}</span>
-    <FacebookLogin
+    {/* <FacebookLogin
       appId="1718196768212364"
       autoLoad={false}
       fields="name,email,picture"
@@ -38,7 +38,7 @@ const LoginForm = (props, context) => (
       cssClass={formStyles.facebookLink}
       icon="fa-facebook-official"
       textButton={context.t("Log in with Facebook")}
-    />
+    /> */}
     <span className={formStyles.forgotLink}>
       {context.t("Forgot password?")}
     </span>

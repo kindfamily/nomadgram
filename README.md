@@ -598,3 +598,19 @@ adapters.py 영상에 없는 것 같은데 깃헙에 수정됨
 
 
 Nomadclone 앱이 정보를 전송하는 데 보안 연결을 사용하지 않는 것이 확인되었습니다.
+오류 해결 동영상 
+https://youtu.be/LuSBgKxjmtA
+https://ngrok.com
+
+로그인 문제 페이스북 정책이 2018년도 10월달에 https 로 꼭 접속을 해야 하는걸로 바뀌어서 안되는것 같음
+
+일반 로그인으로 접속하고 나중에 실서버 운영할때 적용하고 
+
+https 제공해주는 무료 서비스 업체 
+https://www.cloudflare.com/ko-kr/
+
+
+#3-40으로 넘어가기 > 니콜라스도 오케이함 FB는 퍼킹이다
+
+#3-40 Login In Redux Action
+로그인 했을때 반응이 없음 ㅎ
